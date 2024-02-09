@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import HOC from "./Components/HOC/index";
+
 import Header from "./Components/Header/index"
 import Footer from "./Components/Footer/index"
 
@@ -14,10 +16,10 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/a-propos" element={<About />} />
-        <Route path="/mes-projets" element={<Project />} />
-        <Route path="/me-contacter" element={<Contact />} />
+        <Route path="/" element={<HOC child={Home} />} />
+        <Route path="/a-propos" element={<HOC child={About} />} />
+        <Route path="/mes-projets" element={<HOC child={Project} />} />
+        <Route path="/me-contacter" element={<HOC child={Contact} />} />
       </Routes>
 
       <Footer />
