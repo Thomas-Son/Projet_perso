@@ -1,0 +1,41 @@
+.project {
+    padding: 2rem;
+}
+
+.project img {
+    max-width: 30rem;
+    display: block;
+    margin: auto;
+}
+
+.project a {
+    text-decoration: none;
+    color: rgb(253, 245, 226);
+    background-color: rgb(103, 169, 123);
+
+    border-radius: 5px;
+    margin: 2px;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+
+.project article {
+    padding: 1rem;
+    border: 0.2rem solid lightgray;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+
+/* *****************************************************************
+VERSION TABLETTE
+***************************************************************** */
+
+@media screen and (min-width: 760px) {}
+
+
+/* *****************************************************************
+VERSION DESKTOP
+***************************************************************** */
+
+@media screen and (min-width: 1100px) {}

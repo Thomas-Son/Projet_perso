@@ -10,6 +10,8 @@ import About from "./Components/Page/About/index"
 import Project from "./Components/Page/Project/index"
 import Contact from "./Components/Page/Contact/index"
 
+import './App.css';
+
 function App() {
   return (
     <BrowserRouter>

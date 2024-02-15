@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    border-bottom: 2px solid lightgrey;
+    padding: 1rem 0.5rem;
+}
+
+.header nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.header nav a {
+    text-decoration: none;
+    font-family: arvo;
+
+    color: rgb(253, 245, 226);
+    background-color: rgb(103, 169, 123);
+
+    border-radius: 5px;
+    margin: 2px;
+    padding: 5px;
+}
+
+.header img {
+    width: 150px;
+    margin: auto;
+}
+
+/* *****************************************************************
+VERSION TABLETTE
+***************************************************************** */
+
+@media screen and (min-width: 760px) {
+    .header nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .header nav a {
+        width: 20%;
+    }
+}
+
+
+/* *****************************************************************
+VERSION DESKTOP
+***************************************************************** */
+
+@media screen and (min-width: 1100px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header img {
+        margin: 0 5rem;
+    }
+    .header nav {
+        width: 70%;
+        padding-top: 2rem;
+    }
+
+    .header nav a {
+        width: 20%;
+        height: 3rem;
+    }
+}
