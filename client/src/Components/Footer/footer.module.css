@@ -2,7 +2,6 @@
     text-align: center;
     font-family: arvo;
     font-size: 1.6rem;
-    border-top: 2px solid lightgray;
     padding: 2rem;
 }
 
@@ -14,7 +13,7 @@
 
 .footer a {
     text-decoration: none;
-    color: black;
+    color: #ecf0f1;
     padding: 0.5rem;
 }
 
@@ -23,11 +22,21 @@
 VERSION TABLETTE
 ***************************************************************** */
 
-@media screen and (min-width: 760px) {}
+@media screen and (min-width: 760px) {
+    .footer nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
 
 
 /* *****************************************************************
 VERSION DESKTOP
 ***************************************************************** */
 
-@media screen and (min-width: 1100px) {}
+@media screen and (min-width: 1100px) {
+    .footer {
+        max-width: 1140px;
+        margin: auto;
+    }
+}

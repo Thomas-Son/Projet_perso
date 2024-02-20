@@ -1,12 +1,55 @@
-.home {
-    padding: 2rem;
+.ctn_border {
+    background: linear-gradient(-70deg, rgb(133, 176, 95), rgb(89, 100, 150), rgb(85, 77, 141));
+    max-width: 1140px;
+    padding: 0.2rem;
+}
+
+.ctn_bg {
+    background-color: #1d1d20;
+    padding: 5rem;
+}
+
+.home a {
+    display: block;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #ecf0f1;
+    border: 0.1rem solid #ecf0f1;
+    padding: 0.5rem;
+    text-align: center;
+    width: 20rem;
+}
+
+.home article {
+    border-left: 0.1rem solid rgb(133, 176, 95);
+    padding-left: 2rem;
+    margin-top: 3rem;
 }
 
 /* *****************************************************************
 VERSION TABLETTE
 ***************************************************************** */
 
-@media screen and (min-width: 760px) {}
+@media screen and (min-width: 760px) {
+    .ctn_bg {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home h2 {
+        width: 100%;
+    }
+
+    .home .intro {
+        width: 70%;
+        padding-right: 2rem;
+    }
+
+    .home .ctn_projects {
+        width: 20%;
+        padding-left: 2rem;
+    }
+}
 
 
 /* *****************************************************************

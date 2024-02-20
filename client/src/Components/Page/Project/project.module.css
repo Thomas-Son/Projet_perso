@@ -1,19 +1,31 @@
-.project {
-    padding: 2rem;
+.ctn_border {
+    background: linear-gradient(-70deg, rgb(133, 176, 95), rgb(89, 100, 150), rgb(85, 77, 141));
+    max-width: 1140px;
+    padding: 0.2rem;
+}
+
+.ctn_bg {
+    background-color: #1d1d20;
+    padding: 5rem;
+}
+
+.intro {
+    padding-left: 2rem;
+    border-left: 0.1rem solid rgb(133, 176, 95);
+    margin-top: 3rem;
 }
 
 .project img {
-    max-width: 30rem;
+    max-width: 100%;
     display: block;
-    margin: auto;
+    margin: 2rem auto;
+    border: 0.1rem solid #ecf0f131;
 }
 
 .project a {
     text-decoration: none;
-    color: rgb(253, 245, 226);
-    background-color: rgb(103, 169, 123);
-
-    border-radius: 5px;
+    color: #ecf0f1;
+    border: 0.1rem solid #ecf0f1;
     margin: 2px;
     padding: 5px;
     display: block;
@@ -21,10 +33,14 @@
 }
 
 .project article {
+    padding: 2rem;
+    border: 0.1rem solid #ecf0f1;
+    margin: 3rem auto 0;
+    max-width: 42rem;
+}
+
+.project p {
     padding: 1rem;
-    border: 0.2rem solid lightgray;
-    border-radius: 1rem;
-    margin-top: 2rem;
 }
 
 /* *****************************************************************

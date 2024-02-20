@@ -1,14 +1,52 @@
-.about {
-    padding: 2rem;
+.ctn_border {
+    background: linear-gradient(-70deg, rgb(133, 176, 95), rgb(89, 100, 150), rgb(85, 77, 141));
+    padding: 0.2rem;
+}
+
+.ctn_bg {
+    background-color: #1d1d20;
+    padding: 5rem;
+
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .about article {
-    padding-top: 2rem;
+    border-left: 0.1rem solid rgb(133, 176, 95);
+    padding-left: 2rem;
+    margin-top: 4rem;
+}
+
+.about a {
+    display: block;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #ecf0f1;
+    border: 0.1rem solid #ecf0f1;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.about .photo {
+    border: 2px solid rgb(133, 176, 95);
+    border-radius: 50%;
+    width: 25rem;
+    margin: 2rem auto;
+}
+
+.about h2 {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    padding: 0.5rem;
 }
 
 .skill {
-    width: 15rem;
+    width: 12rem;
     text-align: center;
+    margin-top: 1rem;
 }
 
 .skills {
@@ -26,7 +64,17 @@
 VERSION TABLETTE
 ***************************************************************** */
 
-@media screen and (min-width: 760px) {}
+@media screen and (min-width: 760px) {
+    .cv, 
+    .tech,
+    .me {
+        width: 50%;
+    }
+
+    .ctn_bg {
+        justify-content: space-between;
+    }
+}
 
 
 /* *****************************************************************

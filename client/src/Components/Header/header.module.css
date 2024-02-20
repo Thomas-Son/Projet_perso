@@ -2,30 +2,37 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-
-    border-bottom: 2px solid lightgrey;
     padding: 1rem 0.5rem;
 }
 
 .header nav {
     display: flex;
     flex-direction: column;
+    margin: 1rem;
 }
 
 .header nav a {
     text-decoration: none;
     font-family: arvo;
 
-    color: rgb(253, 245, 226);
-    background-color: rgb(103, 169, 123);
+    color: #ecf0f1;
+    background-color: #1d1d20;
+    border: 1px solid #ecf0f1;
 
-    border-radius: 5px;
-    margin: 2px;
-    padding: 5px;
+    margin: 0.75rem 1.5rem;
+    padding: 0.5rem;
+}
+
+.header nav :hover {
+    background-color: #37414b;
+}
+
+.header nav :active {
+    background-color: #1f2d3b;
 }
 
 .header img {
-    width: 150px;
+    width: 12rem;
     margin: auto;
 }
 
@@ -53,11 +60,14 @@ VERSION DESKTOP
     .header {
         flex-direction: row;
         justify-content: space-between;
+        max-width: 1140px;
+        margin: auto;
     }
 
     .header img {
         margin: 0 5rem;
     }
+
     .header nav {
         width: 70%;
         padding-top: 2rem;
