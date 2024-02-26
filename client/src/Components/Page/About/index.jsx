@@ -67,15 +67,15 @@ function About() {
 
                     <article className={styles.me}>
                         <h3>Je m'appelle Thomas Son.</h3>
-                        <p> J'ai 27 ans et j'habite sur Toulouse.</p>
+                        <p> J'ai 27 ans et j'habite à Toulouse.</p>
                         <p>Je suis actuellement à la recherche d'un poste de développeur web.</p>
                     </article>
 
                     <article className={styles.cv}>
                         <h3>Mon parcours</h3>
-                        <p>Après avoir obtenu mon bac S, j'ai suivis un cursus dans la chimie. Souhaitant changer de voie, j'ai commencé à travailler en tant que préparateur de commandes. Puis on m'a proposé de devenir responsable adjoint au sein de l'équipe.</p>
+                        <p>Après avoir obtenu mon bac S, j'ai poursuivi mes études dans le domaine de la chimie. Désireux de changer de voie, j'ai commencé à travailler en tant que préparateur de commandes. Rapidement, j'ai su gagner la confiance de mes supérieurs et évoluer sur le poste de responsable adjoint au sein de l'équipe de livraison à domicile.</p>
 
-                        <p>Désirant me reconvertir dans l'informatique et plus spécialement dans le codage, j'ai alors commencé une formation de développeur web avec la 3W Academy.</p>
+                        <p>Ayant toujours eu un interêt particulier pour l'informatique, et notamment le codage, j'ai décidé de commencer une formation de développeur web avec la 3W Academy.</p>
 
                         <p>C'est là que j'ai obtenu mon titre RNCP de Développeur web full stack en Janvier 2024.</p>
                     </article>
@@ -97,13 +97,13 @@ function About() {
 
                     <article className={styles.more}>
                         <h3>Mais aussi . . .</h3>
-                        <p>Je suis un passionné de sport en particulier l'athlétisme que je pratique depuis le lycée. Dans ce sport j'aime les défis, chercher à se surpasser, se donner à 100% à chaques entrainements afin de voir les résultats lors des compétitions.</p>
+                        <p>Je suis un passionné de sport en particulier l'athlétisme que je pratique depuis le lycée. Dans ce sport j'aime les défis, chercher à se surpasser, se donner à 100% à chaque entrainement afin de voir les résultats lors des compétitions.</p>
 
-                        <p>J'aime aussi voyager, je suis de nature assez curieux. Ce que j'aime durant les voyages c'est découvrir de nouvelles cultures et aussi goûter à de nouvelles saveurs.</p>
+                        <p>De nature curieux, j'aime également voyager afin de découvrir de nouvelles cultures et de goûter à de nouvelles saveurs.</p>
 
-                        <p>Je suis quelqu'un de motivé et enthousiaste. Je m'adapte vite à mon nouvel environnement et je me suis toujours bien entendu avec mes différents collègues même si je peux paraître un peu timide au début.</p>
+                        <p>Je suis quelqu'un de motivé et enthousiaste. Sociable, je m'adapte facilement à mon nouvel environnement.</p>
 
-                        <p>C'est pourquoi si mon profil vous interesse.</p>
+                        <p>C'est pourquoi si mon profil vous intéresse :</p>
                         <NavLink to="/me-contacter">Vous pouvez me contacter ici.</NavLink>
                     </article>
                 </div>

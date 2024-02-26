@@ -12,16 +12,15 @@
 .contact a,
 .contact p {
     text-decoration: none;
-    color: rgb(133, 176, 95);
+    color: #ecf0f1;
 }
 
 .contact article {
     display: flex;
     flex-direction: column;
     text-align: center;
-    border: 0.1rem solid #ecf0f1;
     max-width: 30rem;
-    margin: 3rem auto 0;
+    margin: 1rem auto;
     padding: 1rem;
 }
 
@@ -32,6 +31,11 @@
 .icon {
     color: rgb(133, 176, 95);
     font-size: 2.5rem;
+}
+
+.contact a:hover,
+.contact p:hover {
+    color: rgb(133, 176, 95);
 }
 
 /* *****************************************************************
@@ -47,11 +51,12 @@ VERSION TABLETTE
 
     .ctn_bg div {
         display: block;
-        min-width: 40%;
+        min-width: 50%;
     }
 
     .ctn_bg h2 {
         min-width: 100%;
+        margin-bottom: 2rem;
     }
 }
 

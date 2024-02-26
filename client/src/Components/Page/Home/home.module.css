@@ -26,6 +26,23 @@
     margin-top: 3rem;
 }
 
+.home ul {
+    margin: 0.2rem;
+}
+
+.home li {
+    list-style: none;
+    padding: 0.2rem 1rem;
+}
+
+.home .photo {
+    display: block;
+    border: 2px solid rgb(133, 176, 95);
+    border-radius: 50%;
+    width: 20rem;
+    margin: 3rem auto;
+}
+
 /* *****************************************************************
 VERSION TABLETTE
 ***************************************************************** */
@@ -36,17 +53,21 @@ VERSION TABLETTE
         flex-wrap: wrap;
     }
 
+
     .home h2 {
         width: 100%;
     }
 
     .home .intro {
-        width: 70%;
+        width: 65%;
+    }
+
+    .home .ctn_projects {
+        width: 35%;
         padding-right: 2rem;
     }
 
     .home .ctn_projects {
-        width: 20%;
         padding-left: 2rem;
     }
 }

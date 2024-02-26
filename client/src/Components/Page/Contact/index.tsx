@@ -18,7 +18,7 @@ function Contact() {
                             <p>Toulouse, France</p>
                         </article>
                     </div>
-
+                    <hr />
                     <div>
                         <article>
                             <FontAwesomeIcon icon={faEnvelope} className={styles.icon} />
@@ -26,7 +26,7 @@ function Contact() {
                             <a href="mailto: thomasson8131@gmail.com">thomasson8131@gmail.com</a>
                         </article>                
                     </div>
-
+                    <hr />
                     <div>
                         <article>
                             <FontAwesomeIcon icon={faPhone} className={styles.icon} />
@@ -34,7 +34,7 @@ function Contact() {
                             <a href="tel: +33613017146">06.13.01.71.46</a>
                         </article>
                     </div>
-
+                    <hr />
                     <div>
                         <article>
                             <FontAwesomeIcon icon={faLinkedin} className={styles.icon} />

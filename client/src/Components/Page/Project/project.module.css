@@ -18,29 +18,41 @@
 .project img {
     max-width: 100%;
     display: block;
-    margin: 2rem auto;
-    border: 0.1rem solid #ecf0f131;
+    margin: 1rem auto;
+    padding: 0.2rem;
 }
 
 .project a {
     text-decoration: none;
     color: #ecf0f1;
-    border: 0.1rem solid #ecf0f1;
-    margin: 2px;
-    padding: 5px;
+    padding: 0.5rem;
     display: block;
     text-align: center;
 }
 
+.project a:hover {
+    background-color: #292c30;
+    border-radius: 0.5rem;
+}
+
+.project a:active {
+    background-color: #1f2d3b;
+    border-radius: 0.5rem;
+}
+
 .project article {
-    padding: 2rem;
-    border: 0.1rem solid #ecf0f1;
+    background-color: #24272b;
     margin: 3rem auto 0;
     max-width: 42rem;
+    border-radius: 0.5rem;
 }
 
 .project p {
     padding: 1rem;
+}
+
+.project h3 {
+    padding: 1rem 0 0 1rem;
 }
 
 /* *****************************************************************

@@ -11,10 +11,20 @@
     padding-bottom: 2rem;
 }
 
+.footer nav :hover {
+    background-color: #24272b;
+    border-radius: 0.5rem;
+}
+
+.footer nav :active {
+    background-color: #1f2d3b;
+    border-radius: 0.5rem;
+}
+
 .footer a {
     text-decoration: none;
     color: #ecf0f1;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 
@@ -26,6 +36,10 @@ VERSION TABLETTE
     .footer nav {
         flex-direction: row;
         justify-content: space-around;
+    }
+    .footer a {
+        padding: 2rem;
+        margin: 2rem;
     }
 }
 

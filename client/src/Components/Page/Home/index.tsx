@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 
+import memoji from "../../../assets/images/memoji.png"
 import styles from "./home.module.css"
 
 function Home() {
@@ -9,16 +10,23 @@ function Home() {
                 <div className={styles.ctn_bg}>
                     <h2>Bienvenue !</h2>
 
+                    <img src={memoji} alt="Photo de Thomas Son" className={styles.photo} />
+
                     <article className={styles.intro}>
                         <h3>Développeur Web</h3>
-                        <p>Je m'appelle Thomas Son, j'ai 27 ans. Je suis développeur web sur Toulouse.</p>
+                        <p>Je m'appelle Thomas Son, j'ai 27 ans. Je suis développeur web à Toulouse.</p>
                         <p>J'ai appris à coder durant ma formation de Développeur full stack avec la 3W Academy.</p>
-                        <p>Vous allez popuvoir en apprendre un peu plus sur moi et découvrir mes projets passés et actuels.</p>
+                        <p>Je vous laisse naviguer sur mon site pour en apprendre un peu plus sur moi et  pour découvrir mes projets passés et actuels.</p>
                     </article>
 
                     <article className={styles.ctn_projects}>
                         <h3>Mes Projets</h3>
-                        <p>Pour en savoir plus sur mes projets</p>
+                        <ul>
+                            <li>Paradis d'asie</li>
+                            <li>Site personnel</li>
+                            <li>Olympien</li>
+                        </ul>
+                        <NavLink to="/mes-projets">En savoir plus</NavLink>
                     </article>
 
                     <article>

@@ -12,8 +12,11 @@ function Header() {
 
             <nav>
                 <NavLink to="">Accueil</NavLink>
+                <hr />
                 <NavLink to="/a-propos">À propos</NavLink>
+                <hr />
                 <NavLink to="/mes-projets">Mes projets</NavLink>
+                <hr />
                 <NavLink to="/me-contacter">Me contacter</NavLink>
             </nav>
         </header>
